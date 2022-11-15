@@ -43,10 +43,29 @@
     </script>
 </head>
 
-<body>
-    <h1 class="font-montserrat text-3xl font-bold">stuve</h1>
-    <p class="font-lato">Studierendenvertretung Macromedia Köln</p>
-    <p>Unstyled Text</p>
+<body class="bg-snow text-montserrat px-4 text-slate-900">
+    <nav class="flex gap-4 items-center">
+        <!-- Logo/Branding as SVG to avoid word breaks and control positioning more precisely-->
+        <svg height="50" width="340" alt="Studierendenvertretung Macromedia Köln">
+            <text x="0" y="45" class="font-lato text-6xl font-semibold lowercase align-bottom leading-none">Stuve<tspan
+                    class="fill-primary text-7xl">.</tspan></text>
+            <text x="170" y="25" class="font-lato fill-slate-600">Studierendenvertretung</text>
+            <text x="170" y="45" class="font-lato fill-slate-600">Macromedia Köln</text>
+        </svg>
+        <div class="flex gap-4 uppercase text-xl hover:text-black text-slate-600 h-full items-center">
+            <a href="news">News</a>
+            <a ref="events">Events</a>
+            <a ref="contact">Kontakt</a>
+            <a ref="about">Wir</a>
+        </div>
+    </nav>
+    <main>
+        <article>
+
+        </article>
+    </main>
+    <footer>
+    </footer>
 </body>
 
 </html>
